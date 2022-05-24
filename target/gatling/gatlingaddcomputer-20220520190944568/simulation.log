@@ -1,0 +1,11 @@
+RUN	com.gatling.tests.gatlingaddcomputer	gatlingaddcomputer	1653073784568	 	3.6.1
+USER	gatlingaddcomputer	START	1653073787094
+REQUEST		request_0	1653073787131	1653073788268	OK	 
+REQUEST		request_1	1653073788442	1653073788454	KO	j.n.SocketException: Permission denied: no further information
+REQUEST		request_2	1653073788451	1653073788464	KO	j.n.SocketException: Permission denied: no further information
+REQUEST		request_3	1653073790482	1653073790750	OK	 
+REQUEST		request_4	1653073790755	1653073790757	KO	j.n.SocketException: Permission denied: no further information
+REQUEST		request_5	1653073790756	1653073790758	KO	j.n.SocketException: Permission denied: no further information
+REQUEST		request_6	1653073814782	1653073815054	OK	 
+REQUEST		request_6 Redirect 1	1653073815074	1653073815343	OK	 
+USER	gatlingaddcomputer	END	1653073815358
